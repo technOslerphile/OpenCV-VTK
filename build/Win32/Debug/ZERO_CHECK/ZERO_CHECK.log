@@ -1,0 +1,31 @@
+﻿Build started 15-Oct-14 6:39:39 PM.
+     1>Project "C:\OpenCV-VTK\build\ZERO_CHECK.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Debug\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild".
+       CustomBuild:
+         Checking Build System
+         CMake is re-running because generate.stamp.list is missing.
+         CMake Error at C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindVTK.cmake:135 (message):
+           VTK not found.  Set the VTK_DIR cmake cache entry to the directory
+           containing VTKConfig.cmake.  This is either the root of the build tree, or
+           PREFIX/lib/vtk for an installation.  For VTK 4.0, this is the location of
+           UseVTK.cmake.  This is either the root of the build tree or
+           PREFIX/include/vtk for an installation.
+         Call Stack (most recent call first):
+           CMakeLists.txt:5 (find_package)
+         
+         
+         -- Configuring incomplete, errors occurred!
+         See also "C:/OpenCV-VTK/build/CMakeFiles/CMakeOutput.log".
+         CMake Configure step failed.  Build files cannot be regenerated correctly.  Attempting to stop IDE build.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(151,5): warning MSB4220: Waiting for the currently executing task "CustomBuild" to cancel.
